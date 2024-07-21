@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bicycle', 'bus', 'car', 'motorbike', 'truck']
+
+roboflow:
+  workspace: vv-ca-byaak
+  project: cross-road-traffic-monitoring-group
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vv-ca-byaak/cross-road-traffic-monitoring-group/dataset/5
